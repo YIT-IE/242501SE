@@ -1,3 +1,5 @@
+package com.yit.ie.exam;
+
 public class Addition {
     /**
      * 实现两个整数相加的方法。
