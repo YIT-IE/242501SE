@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.yit.ie.exam.StringReverser;
 
 public class StringReverserTest {
-    private StringReverser stringReverser = new StringReverser();
+    private final StringReverser stringReverser = new StringReverser();
 
     @Test
     public void testReverse() {

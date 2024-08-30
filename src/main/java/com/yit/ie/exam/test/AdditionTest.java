@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.yit.ie.exam.Addition;
 
 public class AdditionTest {
-    private Addition addition = new Addition();
+    private final Addition addition = new Addition();
 
     @Test
     public void testAdd() {

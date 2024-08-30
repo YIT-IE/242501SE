@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import com.yit.ie.exam.ArraySorter;
 
 public class ArraySorterTest {
-    private ArraySorter arraySorter = new ArraySorter();
+    private final ArraySorter arraySorter = new ArraySorter();
 
     @Test
     public void testSort() {
